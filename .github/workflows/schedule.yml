@@ -12,6 +12,6 @@ jobs:
       - name: Update gist
         uses: matchai/waka-box@master
         env:
-          GH_TOKEN: ${{ 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 }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: 00ffbfc16a55df8dc663ba504efbfb90
           WAKATIME_API_KEY: ${{ waka_a37579e0-74f9-4c87-87f9-e913b31068fc }}
